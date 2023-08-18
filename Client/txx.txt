@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src//Pages//css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="khung">
+        <header>
+            <div class="khung-header">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass search_i"></i>
+                    <i class="fa-regular fa-user user_i " ></i>
+                </div>
+                <div class="logo">
+                    <img src="./img/logo.avif" alt="">
+                </div>
+                <div class="heard">
+                    <i class="fa-regular fa-heart heart_i"></i>
+                </div>
+            </div>
+        </header>
+        <nav>
+                <div class="khung-nav">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Cookies</a>
+                    <a href="">Contact</a>
+                    <a href="">Location</a>
+                </div>
+        </nav>
+        <section>
+            <div class="trademark" style="background-image:url('//cdn.shopify.com/s/files/1/2159/5497/files/parallax-bg2.jpg?v=1613539924');background-repeat:no-repeat;background-size:cover;">
+                <div class="circle" >
+                    <div class="circle1">
+                    <div class="circle1-content">
+                        <div class="circle1-logo">
+                            <img src="./img/logo1.png" alt="">
+                        </div>
+                        <div class="circle1-title">
+                            <h3>HANDMADE MUFFINS</h3>
+                            <h1> <span class="span1">Glorious</span><span class="span2">TASTE</span></h1>
+                            <h3>Made with love & care</h3>
+                        </div>
+                        <div class="circle1-get">
+                            <a href="">GET IT NOW</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="khung-product" style="background-image:url('//cdn.shopify.com/s/files/1/2159/5497/files/bg-pattern.png?v=1613541007');background-position:center; background-color: #FFFFFF;">
+                <div class="title-seler">
+                    <div class="title-p">
+                        <p>Just in now</p>
+                    </div>
+                    <div class="title-bestseler">
+                        <h2>Best Sellers</h2>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/Cake1.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/Cake2.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/Cake3.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/Cake4.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cookie31.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cookie32.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cookie39.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cookie41.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cookie42.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-img">
+                            <img src="./img/cake3.webp" alt="">
+                        </div>
+                        <div class="eye">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="grid-item-name">
+                            <h3>Coconut Macaroon</h2>
+                            <p>$300.00</p>
+                        </div>
+                        <div class="grid-item-detail">
+                            <div class="star">
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                            <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                            </div>
+                            <div class="ingredient">
+                                <p>wheat</p>
+                                <p>banana</p>
+                                <p>blueberry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="NewArrivals">
+                <div class="NewArrivals-img">
+                    <div class="NewArrivals-img-child">
+                        <img src="./img/banner2.webp" alt="">
+                    </div>
+                    <div class="NewArrivals-title">
+                        <h1>
+                            Strawberry
+                        </h1>
+                        <h2>
+                            Crumble
+                        </h2>
+                        <h3>
+                            Mini Pies
+                        </h3>
+                    </div>
+                </div>
+                <div class="NewArrivals-product">
+                    <div class="NewArrivals-product-title">
+                        <h1>
+                            New Arrivals
+                        </h1>
+                        <p>Just picked</p>
+                    </div>
+                    <div class="NewArrivals-product-child">
+                        <div class="grid-item1">
+                            <div class="grid-item-img1">
+                                <img src="./img/cake3.webp" alt="">
+                            </div>
+                            <div class="eye1">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="grid-item-name1">
+                                <h3>Coconut Macaroon</h2>
+                                <p>$300.00</p>
+                            </div>
+                            <div class="grid-item-detail1">
+                                <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                                </div>
+                                <div class="ingredient1">
+                                    <p>wheat</p>
+                                    <p>banana</p>
+                                    <p>blueberry</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item1">
+                            <div class="grid-item-img1">
+                                <img src="./img/cake3.webp" alt="">
+                            </div>
+                            <div class="eye1">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="grid-item-name1">
+                                <h3>Coconut Macaroon</h2>
+                                <p>$300.00</p>
+                            </div>
+                            <div class="grid-item-detail1">
+                                <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd00a;"></i>
+                                <i class="fa-solid fa-star" style="color: #c7c5b9;"></i>
+                                </div>
+                                <div class="ingredient1">
+                                    <p>wheat</p>
+                                    <p>banana</p>
+                                    <p>blueberry</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="image-footer">
+
+            </div>
+            <div class="footer-contact">
+                <div class="footer-us">
+                    <div class="footer-frame">
+                        <div class="footer-us-title">
+                            <h2>About Us</h2>
+                        </div>
+                        <div class="footer-us-content">
+                            <p>The way the cakes and pastries from 
+                                <br>
+                            Cookie Crumbles, melt in your mouth is to be 
+                            <br>
+                            experienced to believe. It has a solid 
+                            <br>
+                            start and yet that is the way the cookie
+                            <br>
+                            crumbles..!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-Support">
+                    <div class="footer-Support1">
+                        <div class="footer-Support1-title">
+                            <h2>About Us</h2>
+                        </div>
+                        <div class="footer-Support1-content">
+                            <a href="">Help</a>
+                            <a href="">Delivery Information</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Shipping details</a>
+                        </div>
+                    </div>
+                    <div class="footer-Support2">
+                        <div class="footer-Support1-title">
+                            <h2>Support</h2>
+                        </div>
+                        <div class="footer-Support1-content">
+                            <a href="">Help</a>
+                            <a href="">Delivery Information</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Shipping details</a>
+                        </div>
+                    </div>
+                    <div class="footer-Support3">
+                        <div class="footer-Support1-title">
+                            <h2>Collection</h2>
+                        </div>
+                        <div class="footer-Support1-content">
+                            <a href="">Help</a>
+                            <a href="">Delivery Information</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms & Conditions</a>
+                            <a href="">Shipping details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-Contactus">
+                    <div class="footer-frame">
+                        <div class="footer-us-title">
+                            <h2>Contact us</h2>
+                        </div>
+                        <div class="footer-us-content">
+                            <p>The way the cakes and pastries from 
+                                <br>
+                            Cookie Crumbles, melt in your mouth is to be 
+                            <br>
+                            experienced to believe. It has a solid 
+                            <br>
+                            start and yet that is the way the cookie
+                            <br>
+                            crumbles..!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
